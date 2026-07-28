@@ -2279,13 +2279,13 @@ importers:
 
   packages/retry: {}
 
-  packages/session-url-contract: {}
-
   packages/sdk:
     dependencies:
       '@openclaw/gateway-client':
         specifier: workspace:*
         version: link:../gateway-client
+
+  packages/session-url-contract: {}
 
   packages/speech-core:
     dependencies:
