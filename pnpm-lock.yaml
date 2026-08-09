@@ -1346,7 +1346,7 @@ importers:
         version: 2.0.14(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
       '@microsoft/teams.apps':
         specifier: 2.0.14
-        version: 2.0.14(debug@4.4.3(supports-color@10.2.2))(supports-color@7.2.0)
+        version: 2.0.14(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
       express:
         specifier: 5.2.1
         version: 5.2.1(supports-color@10.2.2)
@@ -2279,13 +2279,13 @@ importers:
 
   packages/retry: {}
 
-  packages/session-url-contract: {}
-
   packages/sdk:
     dependencies:
       '@openclaw/gateway-client':
         specifier: workspace:*
         version: link:../gateway-client
+
+  packages/session-url-contract: {}
 
   packages/speech-core:
     dependencies:
@@ -2379,8 +2379,8 @@ importers:
         specifier: 3.17.4
         version: 3.17.4
       dompurify:
-        specifier: 3.4.12
-        version: 3.4.12
+        specifier: 3.4.13
+        version: 3.4.13
       ghostty-web:
         specifier: 0.4.0
         version: 0.4.0
@@ -5847,6 +5847,7 @@ packages:
 
   crypto-js@4.2.0:
     resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
+    deprecated: Active development of CryptoJS has been discontinued. This library is no longer maintained.
 
   css-functions-list@3.3.3:
     resolution: {integrity: sha512-8HFEBPKhOpJPEPu70wJJetjKta86Gw9+CCyCnB3sui2qQfOvRyqBy4IKLKKAwdMpWb2lHXWk9Wb4Z6AmaUT1Pg==}
@@ -5988,8 +5989,8 @@ packages:
     resolution: {integrity: sha512-gYzvtM72ZtxQO0T048kd6HWSbbGCNOUwcnfQ01cqIJ4X2IYKFFHZ5mKvrQETcFXxsRObZulDaKmy//R7TPtsBg==}
     engines: {node: '>=20.19.0'}
 
-  dompurify@3.4.12:
-    resolution: {integrity: sha512-zQvGet8Z2sWbQhCmfFz/T5QWH2oBmjnqK3qvOjaqaNLrLEF912WamU+ohnTp0TCep/MFVHpdJuCZEdFOdTnEFg==}
+  dompurify@3.4.13:
+    resolution: {integrity: sha512-2vmYIoqjze2d+kakP8S/nS5shfsl587kzwEjcGlTdiksUVgFHnFCsLYDVj/JNqJVOQZGSYBTmuycv0PodwmnMQ==}
 
   domutils@3.2.2:
     resolution: {integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==}
@@ -10662,7 +10663,7 @@ snapshots:
       - debug
       - supports-color
 
-  '@microsoft/teams.apps@2.0.14(debug@4.4.3(supports-color@10.2.2))(supports-color@7.2.0)':
+  '@microsoft/teams.apps@2.0.14(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
       '@azure/msal-node': 5.4.1
       '@microsoft/teams.api': 2.0.14(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
@@ -12876,7 +12877,7 @@ snapshots:
     dependencies:
       domelementtype: 3.0.0
 
-  dompurify@3.4.12:
+  dompurify@3.4.13:
     optionalDependencies:
       '@types/trusted-types': 2.0.7
 
